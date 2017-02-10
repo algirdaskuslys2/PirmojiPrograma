@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mokytojas.egz.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vardas" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/vardas" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Grupe" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/grupe" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Data" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/data" />
+
+        <Button
+            android:id="@+id/saugoti"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Saugoti"/>
+
+        <Button
+            android:id="@+id/trinti"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Trinti"/>
+
+        <Button
+            android:id="@+id/ieskoti"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ieskoti"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/saved_students_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="20dp"
+        android:paddingLeft="10dp" >
+    </LinearLayout>
+
+</FrameLayout>
